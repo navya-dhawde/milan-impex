@@ -6,9 +6,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 // Import your images
-import img1 from "../assets/home1.jpg";
-import img2 from "../assets/home2.jpg";
-import img3 from "../assets/home3.jpg";
+import img1 from "../assets/home7.jpg";
+import img2 from "../assets/home5.jpg";
+import img3 from "../assets/home4.jpg";
 
 const slides = [
   { image: img1, heading: "Mother Nature needs to Protect That’s why we Recycle" },

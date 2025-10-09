@@ -1,9 +1,18 @@
 import { useState } from "react";
 import "../styles/Navbar.css";
-import logo from "../assets/logo.png"; // your logo
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleScroll = (e, targetId) => {
+    e.preventDefault();
+    setMenuOpen(false);
+    const section = document.querySelector(targetId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <nav className="navbar">
@@ -12,7 +21,6 @@ export default function Navbar() {
         <span className="company-name">Milan Impex</span>
       </div>
 
-      {/* Hamburger Icon */}
       <div
         className={`hamburger ${menuOpen ? "active" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
@@ -24,16 +32,16 @@ export default function Navbar() {
 
       <div className={`navbar-right ${menuOpen ? "open" : ""}`}>
         <div className="nav-panel">
-          <a href="#home" className="nav-btn" onClick={() => setMenuOpen(false)}>
+          <a href="#home" className="nav-btn" onClick={(e) => handleScroll(e, "#home")}>
             Home
           </a>
-          <a href="#about" className="nav-btn" onClick={() => setMenuOpen(false)}>
+          <a href="#about" className="nav-btn" onClick={(e) => handleScroll(e, "#about")}>
             About Us
           </a>
-          <a href="#products" className="nav-btn" onClick={() => setMenuOpen(false)}>
+          <a href="#products" className="nav-btn" onClick={(e) => handleScroll(e, "#products")}>
             Products
           </a>
-          <a href="#footer" className="nav-btn" onClick={() => setMenuOpen(false)}>
+          <a href="#contact" className="nav-btn" onClick={(e) => handleScroll(e, "#contact")}>
             Contact Us
           </a>
         </div>

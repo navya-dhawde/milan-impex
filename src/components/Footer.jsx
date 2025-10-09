@@ -18,36 +18,59 @@ const Footer = () => {
             <p>Import · Manufacture · Innovate</p> */}
           </div>
 
-          <div className="footer-socials">
-            <h4>Socials</h4>
-            <div className="social-icons">
-              <img src={insta} alt="Instagram" />
-              <img src={linkedin} alt="LinkedIn" />
-              <img src={facebook} alt="Facebook" />
-              <img src={twitter} alt="Twitter" />
-            </div>
-          </div>
+<div className="footer-socials">
+  <h4>Socials</h4>
+  <div className="social-icons">
+    <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <img src={insta} alt="Instagram" />
+    </a>
+    <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+      <img src={linkedin} alt="LinkedIn" />
+    </a>
+    <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <img src={facebook} alt="Facebook" />
+    </a>
+    <a href="https://www.twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <img src={twitter} alt="Twitter" />
+    </a>
+  </div>
+</div>
+
         </div>
 
         {/* Right Section */}
-        <div className="footer-right">
-          <h2 className="footer-heading">Do You Have Any Question? Please Contact 
-Our Team</h2>
+<div className="footer-right">
+  <h2 className="footer-heading">
+    Do You Have Any Question? Please Contact Our Team
+  </h2>
 
-          <h4 className="footer-subheading">Contact Persons</h4>
-          <ul className="contact-list">
-            <li><strong>Mr. Rajesh Milan</strong> — +91 98765 43210 | rajesh@milanimpex.com</li>
-            <li><strong>Ms. Priya Shah</strong> — +91 99887 66554 | priya@milanimpex.com</li>
-            <li><strong>Mr. Amit Patel</strong> — +91 87654 32109 | amit@milanimpex.com</li>
-            <li><strong>Ms. Neha Verma</strong> — +91 99000 11223 | neha@milanimpex.com</li>
-          </ul>
+  <h4 className="footer-subheading">Contact Persons</h4>
+  <ul className="contact-list">
+    <li>
+      <strong>Rajesh Agarwal</strong> — +91 9811035445 | rajesh@milanimpex.in
+    </li>
+    <li>
+      <strong>Shalabh Golchha</strong> — +91 9873990851 | shalabh@milanimpex.in
+    </li>
+    <li>
+      <strong>Anubhav Agarwal</strong> — +91 9899135445 | anubhav@milanimpex.in
+    </li>
+    <li>
+      <strong>Tanuj Agarwal</strong> — +91 9971125445 | tanuj@milanimpex.in
+    </li>
+  </ul>
 
-          <h4 className="footer-subheading">Address</h4>
-          <div className="address-section">
-            <p><strong>Factory:</strong> GIDC Industrial Estate, Ahmedabad, Gujarat, India</p>
-            <p><strong>Office:</strong> 4th Floor, Milan Impex House, CG Road, Ahmedabad, Gujarat</p>
-          </div>
-        </div>
+  <h4 className="footer-subheading">Address</h4>
+  <div className="address-section">
+    <p>
+      <strong>Factory:</strong> Killa No. 75/8/2/9/1, Village Kamshpur, Sonipat 131001, Haryana, India
+    </p>
+    <p>
+      <strong>Corporate Office:</strong> F-48, Sector-41, Noida 20103, Uttar Pradesh, India
+    </p>
+  </div>
+</div>
+
       </div>
 
       {/* Divider and Bottom Section */}

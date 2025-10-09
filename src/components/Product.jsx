@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import "../styles/Home.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import bigImg from "../assets/prod1.png";
+import bigImg from "../assets/home2.jpg";
 import small1 from "../assets/met1.png";
 import small2 from "../assets/met2.png";
 import small3 from "../assets/met3.png";

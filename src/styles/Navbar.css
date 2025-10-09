@@ -6,8 +6,11 @@
   align-items: center;
   position: fixed;
   top: 0;
-  padding: 1rem 0;
-  background-color: rgba(255, 255, 255, 0);
+  padding: 0.7rem 0;
+   background: #2d2d2d39;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
   z-index: 100;
   font-family: "Arial", sans-serif;
   transition: background-color 0.3s ease;
@@ -22,14 +25,14 @@
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 
 .company-name {
   font-family: "Murecho", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #ffffff;
 }
@@ -43,10 +46,10 @@
 }
 
 .nav-panel {
-  background: #8b9aa039;
+  /* background: #8b9aa039;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15); */
   display: flex;
   gap: 0.7rem;
   padding: 0.4rem 0.6rem;
@@ -113,7 +116,7 @@
   .nav-panel {
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgb(255, 255, 255);
   backdrop-filter: blur(20px);
   border-radius: 20px;
   padding: 2rem 1.5rem;
@@ -137,13 +140,14 @@
 }
 
 .nav-btn:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.158);
   border-radius: 10px;
 }
 
   .navbar-right {
+    padding: 0;
     position: fixed;
-    top: 80px;
+    top: 94px;
     right: -110%;
     width: 100%;
     height: calc(100vh - 80px);
