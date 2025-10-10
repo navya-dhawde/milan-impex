@@ -72,14 +72,12 @@ export default function About() {
           <br /><br />
           Over the years we have built business and partnerships based on reliability and performance. This has helped set benchmarks in supplying reliable products, offering rational pricing and delivering responsible services to clients across the spectrum.
           <br /><br />
-          The Group has international presence with offices setup in Singapore, China, Senegal and United States of America.
-          <br /><br />
           Drawing heavily from its traditional ethics and modern business outlook, the Group with its customer centric approach has built and strives to build long term relationships and believes in delighting the customer rather than just satisfying them.
         </p>
       </div>
 
       <div className="about-images">
-        <img src={img1} alt="About Top" className="about-img top" />
+        {/* <img src={img1} alt="About Top" className="about-img top" /> */}
         <img src={img2} alt="About Bottom" className="about-img bottom" />
       </div>
     </div>
