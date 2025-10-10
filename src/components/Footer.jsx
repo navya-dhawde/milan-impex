@@ -18,7 +18,7 @@ const Footer = () => {
             <p>Import · Manufacture · Innovate</p> */}
           </div>
 
-<div className="footer-socials">
+{/* <div className="footer-socials">
   <h4>Socials</h4>
   <div className="social-icons">
     <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
@@ -34,7 +34,7 @@ const Footer = () => {
       <img src={twitter} alt="Twitter" />
     </a>
   </div>
-</div>
+</div> */}
 
         </div>
 
@@ -66,7 +66,8 @@ const Footer = () => {
       <strong>Factory:</strong> Killa No. 75/8/2/9/1, Village Kamshpur, Sonipat 131001, Haryana, India
     </p>
     <p>
-      <strong>Corporate Office:</strong> F-48, Sector-41, Noida 20103, Uttar Pradesh, India
+      <strong>Corporate Office:</strong> B-228, Tower-B, Logix Technova, Sector-132,
+Noida-201304 (U.P.)
     </p>
   </div>
 </div>
