@@ -87,11 +87,13 @@ export default function Products() {
         <div className="products-info">
           <h3>Metal Scrap Processor</h3>
           <p>
-            Importer, Trader and Processor for Non-Ferrous Scrap, Stainless Steel Scrap and Ferrous Scrap. 
-            <br/><br/>To make a significant contribution towards resource management and conservation, we provide raw material, in the form of scrap, to recycling industries and furnaces in India. 
-            We also export Aluminium Ingots, ferro alloys and other base metals around the globe. 
-            <br/><br/>We’ve also forayed in the field of metal manufacturing and make high precision components from Stainless Steel used in the manufacturing of home and kitchen appliances. 
-            <br/><br/>Our products command respect in the market and are recognized by the Group’s capability to deliver reliable products of supreme quality.
+Importer, Trader and Processor for Non-Ferrous Scrap, Stainless Steel Scrap and Ferrous Scrap.
+
+<br/><br/>Committed to growth , Milan Impex is a leading importer and processor of Non-ferrous metal scrap (i.e. Shredded Zurik Scrap and Aluminium Zorba) from long term suppliers looking at establishing itself as a truly innovative company in the metal world. It embarks on creating & developing newer markets viz. UAE, Central Europe, USA, etc. and adding them in to the mainline of the business networks. It also looks at dredging into trading opportunities which allows integration to its current activities.
+
+<br/><br/>To make a significant contribution towards resource management and conservation, we provide raw material, in the form of scrap, to recycling industries and furnaces in India. We also export Aluminium Ingots, ferro alloys and other base metals around the globe.
+
+<br/><br/>Our products command respect in the market and are recognized by the Group’s capability to deliver reliable products of supreme quality.
           </p>
         </div>
       </div>
@@ -105,7 +107,8 @@ export default function Products() {
           </div>
           <div className="hover-text">
             <h1>PLA based products</h1>
-            <p>Manufacturing Medical Products and Packaging Solutions using PLA by rethinking green plastics usage.</p>
+            <p>Under our brand Clearth, we manufacture innovative medical products and packaging solutions using PLA (polylactic acid), redefining the role of green plastics in sustainable healthcare and packaging industries. Clearth reflects our mission to create a cleaner, healthier Earth through responsible innovation.
+Visit our website:   <a href="https://www.clearth.in" target="_blank" class="green-link">www.clearth.in</a></p>
           </div>
         </div>
 
@@ -127,7 +130,7 @@ export default function Products() {
           </div>
           <div className="hover-text">
             <h1>Mould Maker</h1>
-            <p>In collaboration with a China based plastic moulding company, We supply moulds to many OEM suppliers of automobile and other industries.</p>
+            <p>Leveraging extensive experience in mould processing and close collaboration with numerous China-based moulding companies, we supply precision-engineered and complex moulds to a wide range of OEM suppliers in the automotive and other industries.</p>
           </div>
         </div>
 
