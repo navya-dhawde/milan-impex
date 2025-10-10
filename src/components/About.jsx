@@ -2,8 +2,8 @@ import { useRef, useEffect } from "react";
 import "../styles/Home.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import img1 from "../assets/map.png";
-import img2 from "../assets/about.png";
+import img1 from "../assets/upp.jpg";
+import img2 from "../assets/about.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -77,7 +77,7 @@ export default function About() {
       </div>
 
       <div className="about-images">
-        {/* <img src={img1} alt="About Top" className="about-img top" /> */}
+        <img src={img1} alt="About Top" className="about-img top" />
         <img src={img2} alt="About Bottom" className="about-img bottom" />
       </div>
     </div>
