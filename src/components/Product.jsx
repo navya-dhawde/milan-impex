@@ -118,8 +118,8 @@ Visit our website:   <a href="https://www.clearth.in" target="_blank" class="gre
             <div className="pill-tag"><h5>Packaging Machines</h5></div>
           </div>
           <div className="hover-text">
-            <h1>Packaging Machines</h1>
-            <p>In collaboration with multiple China based manufacturers, we import and trade all types of Packaging Machines to serve the needs of clients.</p>
+            <h1>Machinery Import</h1>
+            <p>In collaboration with multiple China-based manufacturers, we import and trade a wide range of high-performance machinery to meet the diverse needs of our clients across industries. Our commitment goes beyond supply—we also provide reliable after-sales service and technical support to ensure optimal performance and long-term value. <br/>Our product portfolio includes:Packaging Machines, CNC Machines, Vacuum Foaming Machines, Metal Recycling Machines, E-Waste Recycling Machines, Lithium Battery / Black Mass Processing Machines</p>
           </div>
         </div>
 
