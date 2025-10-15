@@ -2,14 +2,15 @@ import { useRef, useEffect } from "react";
 import "../styles/Home.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import bigImg from "../assets/home2.jpg";
+import bigImg from "../assets/home2.webp";
 import small1 from "../assets/met4.jpeg";
 import small2 from "../assets/met7.jpeg";
 import small3 from "../assets/met5.jpeg";
-import prod2 from "../assets/prod2.png";
-import prod3 from "../assets/prod3.png";
-import prod4 from "../assets/prod4.png";
-import prod5 from "../assets/prod5.png";
+import prod2 from "../assets/prod2.webp";
+import prod3 from "../assets/prod3.webp";
+import prod4 from "../assets/prod4.webp";
+import prod5 from "../assets/prod5.webp";
+
 
 gsap.registerPlugin(ScrollTrigger);
 

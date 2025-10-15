@@ -2,8 +2,8 @@ import { useRef, useEffect } from "react";
 import "../styles/Home.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import img1 from "../assets/upp.jpg";
-import img2 from "../assets/about.jpg";
+import img1 from "../assets/upp.webp";
+import img2 from "../assets/about.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
