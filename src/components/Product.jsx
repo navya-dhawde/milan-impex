@@ -115,7 +115,7 @@ Visit our website:   <a href="https://www.clearth.in" target="_blank" class="gre
         <div className="work-item">
           <div className="image-wrapper">
             <img src={prod3} alt="Work 2" className="work-img" />
-            <div className="pill-tag"><h5>Packaging Machines</h5></div>
+            <div className="pill-tag"><h5>Machinery Import</h5></div>
           </div>
           <div className="hover-text">
             <h1>Machinery Import</h1>
